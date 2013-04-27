@@ -1,0 +1,168 @@
+!SESSION 2012-11-05 09:45:13.444 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.136
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\css_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.240
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\forms_lists_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.293
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\htmlform_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.373
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.428
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\html\javascript_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.491
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_f_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.588
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\jsf_h_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.647
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_bean_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.727
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_html_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.803
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_logic_snippets.xml
+
+!ENTRY com.genuitec.eclipse.wizards 1 0 2012-11-05 09:45:53.878
+!MESSAGE Installed snippet library: D:\eclipse\MyEclipse\MyEclipse 10\configuration\org.eclipse.osgi\bundles\128\1\.cp\snippets\jsp\struts_tiles_snippets.xml
+
+!ENTRY org.eclipse.core.jobs 4 2 2012-11-05 09:46:11.305
+!MESSAGE An internal error occurred during: "CheckLicensesAndNotify".
+!STACK 0
+java.lang.NullPointerException
+	at com.genuitec.pulse.client.targetcfg.collab.ui.jobs.CheckLicensesAndNotifyJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 2 2 2012-11-05 09:46:13.013
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.targetcfg.ui.jobs.InitializeTargetCfgJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2012-11-05 09:46:13.015
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.pulse2.client.services.internal.PulseClient$1
+!SESSION 2012-11-07 17:05:18.608 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.genuitec.eclipse.core 1 0 2012-11-07 17:05:59.570
+!MESSAGE Activation Error: Cannot decode server response. Reason: 
+!STACK 0
+javax.crypto.BadPaddingException: Data must start with zero
+	at sun.security.rsa.RSAPadding.unpadV15(RSAPadding.java:308)
+	at sun.security.rsa.RSAPadding.unpad(RSAPadding.java:255)
+	at com.sun.crypto.provider.RSACipher.a(DashoA13*..)
+	at com.sun.crypto.provider.RSACipher.engineDoFinal(DashoA13*..)
+	at javax.crypto.Cipher.doFinal(DashoA13*..)
+	at com.genuitec.eclipse.core.RSAUtil.rsaDecrypt(Unknown Source)
+	at com.genuitec.eclipse.core.RSAUtil.decrypt(Unknown Source)
+	at com.genuitec.eclipse.core.ActivationCodeDecryptor.decrypt(Unknown Source)
+	at com.genuitec.eclipse.core.activation.ActivationCode.fromCode(Unknown Source)
+	at com.genuitec.eclipse.core.ActivationValidator.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.ā(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.Ċ(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.ā(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.getCurrentLicensee(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValid(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ā(Unknown Source)
+	at com.genuitec.eclipse.core.vU.A__111164asdfae2342fa(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin$1.run(PerspectivePlugin.java:108)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2012-11-07 17:05:59.679
+!MESSAGE Error: invalid activation-data in license file; activation is invalidated
+!SESSION 2012-11-07 17:11:43.025 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.genuitec.eclipse.core 1 0 2012-11-07 17:11:55.333
+!MESSAGE Activation Error: Cannot decode server response. Reason: 
+!STACK 0
+javax.crypto.BadPaddingException: Data must start with zero
+	at sun.security.rsa.RSAPadding.unpadV15(RSAPadding.java:308)
+	at sun.security.rsa.RSAPadding.unpad(RSAPadding.java:255)
+	at com.sun.crypto.provider.RSACipher.a(DashoA13*..)
+	at com.sun.crypto.provider.RSACipher.engineDoFinal(DashoA13*..)
+	at javax.crypto.Cipher.doFinal(DashoA13*..)
+	at com.genuitec.eclipse.core.RSAUtil.rsaDecrypt(Unknown Source)
+	at com.genuitec.eclipse.core.RSAUtil.decrypt(Unknown Source)
+	at com.genuitec.eclipse.core.ActivationCodeDecryptor.decrypt(Unknown Source)
+	at com.genuitec.eclipse.core.activation.ActivationCode.fromCode(Unknown Source)
+	at com.genuitec.eclipse.core.ActivationValidator.<init>(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.ā(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.Ċ(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.ā(Unknown Source)
+	at com.genuitec.eclipse.core.LicenseUtil.getCurrentLicensee(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ą(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.ā(Unknown Source)
+	at com.genuitec.eclipse.core.ViperCore.isLicenseValid(Unknown Source)
+	at com.genuitec.eclipse.core.vU.ā(Unknown Source)
+	at com.genuitec.eclipse.core.vU.A__111164asdfae2342fa(Unknown Source)
+	at com.genuitec.myeclipse.perspective.PerspectivePlugin$1.run(PerspectivePlugin.java:108)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4140)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3757)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2696)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2660)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2494)
+	at org.eclipse.ui.internal.Workbench$7.run(Workbench.java:674)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:667)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:123)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:344)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+
+!ENTRY com.genuitec.eclipse.core 1 0 2012-11-07 17:11:55.333
+!MESSAGE Error: invalid activation-data in license file; activation is invalidated
